@@ -1,0 +1,37 @@
+body{
+    font-family: Arial, Helvetica, sans-serif; }
+
+    .header{
+        height: 10em;
+        padding: 5em;
+        font-size: 2em;
+        background-image: url("../imgs/Portada.jpg");
+        background-size: cover;
+        background-position: center;
+        }
+
+        .header h1{
+            margin: 0px;
+            font-weight: 400;
+        }
+
+        .products { 
+            width: 80%;
+            margin: auto;
+        }
+        .products td{
+            width: 50%;
+            padding: 2em;
+        }
+        .products img{
+        width: 100%;
+        border: solid 2px rgb(10, 26, 97);
+        }
+
+        .footer{
+            height: 3em;
+            line-height: 3em;
+            background-color: rgb(10, 26, 97); color: rgb(248, 245, 245);
+            text-align: center;
+            font-weight: 900;
+            }
